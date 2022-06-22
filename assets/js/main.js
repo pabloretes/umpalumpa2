@@ -26,10 +26,10 @@ Author: GrayGrids
         var logo = document.querySelector('.navbar-brand img')
         if (window.pageYOffset > sticky) {
           header_navbar.classList.add("sticky");
-          logo.src = 'assets/images/logo/logoLetrasNegras.png';
+          logo.src = 'assets/images/logo/Umpa Lumpa480x100pxLila.png';
         } else {
           header_navbar.classList.remove("sticky");
-          logo.src = 'assets/images/logo/logoLetrasBlancas.png';
+          logo.src = 'assets/images/logo/UmpaLumpa480×100px.png';
         }
 
         // show or hide the back-top-top button
