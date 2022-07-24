@@ -2083,6 +2083,12 @@ ol {
   padding: 240px 0 140px 0;
 }
 
+.hero-area .hero-content .tittle-paragraph-content {
+  background: rgba(7, 7, 7, 0.3);
+  border-radius: 20px;
+  color: white;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-area .hero-content {
     padding: 0px 140px;
@@ -2094,6 +2100,8 @@ ol {
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 20px;
+  letter-spacing: 0.3
+  rem;
 }
 
 .hero-area .hero-content h1 {
@@ -2102,6 +2110,7 @@ ol {
   line-height: 55px;
   color: #fff;
   text-transform: capitalize;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .hero-area .hero-content p {
@@ -2109,10 +2118,11 @@ ol {
   font-size: 16px;
   line-height: 28px;
   margin-top: 20px;
-  color: #e6e6e6;
+  color: white;
+  padding: 0 2rem 2rem 2rem;
 }
 
-.hero-area .hero-content .button {
+.hero-area .hero-content .button { 
   margin-top: 50px;
 }
 
